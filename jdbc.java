@@ -3,9 +3,9 @@ import java.sql.*;
 public class jdbc {
     public static void main(String[] args) {
         String driver = "com.mysql.jdbc.Driver";
-        String url = "jdbc:mysql://localhost/test";
-        String user = "";
-        String password = "";
+        String url = "jdbc:mysql://localhost/test";//db
+        String user = "";//user
+        String password = "";//passw
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection(url, user, passw
