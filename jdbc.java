@@ -4,8 +4,8 @@ public class jdbc {
     public static void main(String[] args) {
         String driver = "com.mysql.jdbc.Driver";
         String url = "jdbc:mysql://localhost/test";
-        String user = "root";
-        String password = "ab15963qw";
+        String user = "";
+        String password = "";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection(url, user, passw
