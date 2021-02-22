@@ -8,7 +8,7 @@ public class jdbc {
         String password = "";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(url, user, passw
+            Connection conn = DriverManager.getConnection(url, user, password)
 
             if (conn != null && !conn.isClosed()) {
                 System.out.println("資料庫連線測試成功！");
@@ -23,3 +23,6 @@ public class jdbc {
         }
     }
 }
+
+
+
