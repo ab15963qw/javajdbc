@@ -5,7 +5,7 @@ public class DBConnectionDemo {
         String driver = "com.mysql.jdbc.Driver"; 
         String url = "jdbc:mysql://localhost:3306/GUESTBOOK"; // database
         String user = ""; //user
-        String password = ""; //password
+        String password = ""; //pass
         try { 
             Class.forName(driver); 
             Connection conn = 
